@@ -1,0 +1,7 @@
+{
+	"pack": {
+		"description": "core mod loader",
+		"pack_format": 5,
+		"_comment": "."
+	}
+}

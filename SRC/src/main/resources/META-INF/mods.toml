@@ -1,0 +1,27 @@
+modLoader="javafml" #mandatory
+loaderVersion="[31,)" #mandatory
+
+[[mods]] #mandatory
+modId="dropper_mod" #mandatory
+version="${version}" #mandatory
+displayName="CoreLoader"
+description='''
+'''
+
+[[dependencies.dropper_mod]] #optional
+# The modid of the dependency
+modId="forge" #mandatory
+# Does this dependency have to exist - if not, ordering below must be specified
+mandatory=true #mandatory
+# The version range of the dependency (see "https://maven.apache.org/enforcer/enforcer-rules/versionRanges.html")
+versionRange="[31,)" #mandatory
+ordering="NONE"
+side="BOTH"
+
+# Here's another dependency
+[[dependencies.dropper_mod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.15.2]"
+ordering="NONE"
+side="BOTH"
