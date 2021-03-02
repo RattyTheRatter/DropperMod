@@ -1,9 +1,14 @@
 # :electric_plug: DropperMod
 A minecraft(forge) mod which can download and execute file
 
-## :droplet: Windows (Download and run calculator)
+## :droplet: Loader (Download and run calculator)
 <p align="center">
   <img src="IMG/windows.gif">
+</p>
+
+## :credit_card: Stealer (Steal user credentials and upload to telegram bot)
+<p align="center">
+  <img src="IMG/stealer.gif">
 </p>
 
 ## :zap: How it works?
